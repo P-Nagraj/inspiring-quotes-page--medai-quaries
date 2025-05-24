@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{box-sizing: border-box;}
+body{margin:0;}
+
+.inspiring-bg-container{
+    background-image:radial-gradient(#4b4a7e,#c294d1);
+    min-height: 100vh;
+    padding-top:30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color:#f1f5f9;
+    width:90%;
+    max-width:1000px;
+    text-align: center;
+    font-family:"Roboto";
+    font-weight: 600;
+    font-size:36px;
+
+}
+.card-container{
+    width:90%;
+    max-width: 1000px;
+
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    padding:20px;
+    margin-bottom:20px;
+}
+.quotes-container{
+    flex-grow:1;
+}
+.icon-size{
+    font-size:24px;
+    margin-bottom:20px;
+}
+.icon-color-1{
+    color:#5d408c;
+
+}
+.icon-color-2{
+    color:#2a4eaa;
+}
+.icon-color-3{
+    color:#9e619b;
+}
+.icon-color-4{
+    color:#391484;
+}
+.Quote{
+    color:#6e798c;
+    font-size:15px;
+    font-family:"Roboto";
+    margin:0;
+    margin-bottom:18px;
+
+}
+.author-name{
+    font-family:"Roboto";
+    font-size:18px;
+    color:#081f32;
+    margin:0;
+
+}
+.image{
+    width:80px;
+    margin-left:20px;
+}
+@media screen and (min-width:768px){
+    .image{
+        width:120px
+    }
+    .heading{
+        font-size: 46px;
+    }
+}
